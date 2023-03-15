@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+     
+    
+    
+    --title:black;
+}
+
+body, html{
+    height:300%;
+    width:100%;
+    background:white;
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+* {
+ box-sizing: border-box;
+	}
+
+.m{
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolt;
+  font-size: 20vw;
+  top:0.5%;
+  left:2%;
+  color: white;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  animation-name: m;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+    }
+
+@keyframes m {
+  0%{rotate:y 0deg;opacity: 0;}
+  100%{rotate:y 360deg;opacity: 1;} 
+}
+ 
+.felvo{
+    position:absolute;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolt;
+    width:100%;
+    height:14.5%;   
+    margin:0;
+    padding:0;
+    color:white;
+    font-size: 20vw;    
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index:1;
+     animation-name: felvo;
+     animation-duration: 2s;
+}
+    
+@keyframes felvo {
+    0%{left:0%;opacity: 0;}
+    100%{left:0%;opacity: 1;}
+}
+
+
+
+.menuIcon{
+    position:fixed;
+    background-image: url('/storage/emulated/0/MAREK/Icon/hamIcon3.png');
+    background-position: center;
+    background-size: 100% 100%;
+    width:9%;
+    height:4%;
+    left:87%;
+    top:4.3%;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    z-index:3;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-delay: 4.5;
+    }
+    
+@keyframes icon {
+  0%{width:0%;height: 0%;}  
+  50%{width:12%;height:6%;}
+  100%{width:9%;height: 4%;}
+}
+
+.menu{
+    position:fixed;
+    height:29%;
+    width:100%;
+    top:12%;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    animation-name: menu;
+    animation-duration: 0.5s;
+    z-index:2;
+    }
+
+@keyframes menu{
+    0%{top:12%;left:70%;width:0;height:0%;opacity:0;}
+   100%{top:12%;left:0%;width:100%;height:29%;opacity:1;}
+}
+
+.menu .haa{
+    box-sizing: border-box;
+    color:#d3d3d3;
+    margin:0;
+    padding:0;
+    }    
+
+.haa{
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 7vw;
+    color:white;
+    z-index:0;
+    }
+
+details > .menuIcon{
+    list-style-type:none;
+   }
+
+
+.center{
+    position: absolute;
+    top:10%;
+    left:0%;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.center span:nth-child(1){
+    position: absolute;
+    display: block;
+    top:10%;
+    left:10%;
+    width:100%;
+    height: 80%;
+    margin:0;
+    padding: 0;
+    animation: anim1 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    color:#55eaff;
+}
+
+@keyframes anim1 {
+    0%{
+    top:50%;
+    left:50%;
+    font-size: 1vw;
+    opacity: 0;
+    }
+    100%{
+        top:10%;
+        left: 20%;
+        font-size: 15vw;
+        opacity: 1;       
+    }
+}
+
+
+.center span:nth-child(2){
+    position: absolute;
+    display: block;
+    top:10%;
+    left:10%;
+    width:100%;
+    height: 80%;
+    margin:0;
+    padding: 0;
+    animation: anim2 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    color:#15ff38;
+}
+
+@keyframes anim2 {
+    0%{
+    top:50%;
+    left:50%;
+    font-size: 1vw;
+    opacity: 0;
+    }
+    100%{
+        top:10%;
+        left: 50%;
+        font-size: 15vw;
+        opacity: 1;       
+    }
+}
+
+.center span:nth-child(3){
+    position: absolute;
+    display: block;
+    top:10%;
+    left:10%;
+    width:100%;
+    height: 80%;
+    margin:0;
+    padding: 0;
+    animation: anim3 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    color:#fffc15;
+}
+
+@keyframes anim3 {
+    0%{
+    top:50%;
+    left:50%;
+    font-size: 1vw;
+    opacity: 0;
+    }
+    100%{
+        top:10%;
+        left: 80%;
+        font-size: 15vw;
+        opacity: 1;       
+    }
+}
+
+
+
+.kucko{
+     position:relative;
+     top:99.5%;
+     left:32%;
+     color:black;
+     margin:0;
+     padding:0;
+     font-size:3vw;
+     text-align:center;
+     letter-spacing:4px;
+     text-decoration: none;
+     }  
+
+
+

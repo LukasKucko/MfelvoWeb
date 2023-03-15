@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
+
+:root{
+     
+    --background: linear-gradient(to left, #accbee 0%, #e7f0fd 100%);
+    
+    --title:black;
+}
+
+body, html{
+    height:200%;
+    width:100%;
+    background:var(--background);
+    margin: 0;
+    padding: 0;
+    }
+
+* {
+ box-sizing: border-box;
+	}
+
+
+.m{
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolt;
+  font-size: 20vw;
+  top:0.5%;
+  left:2%;
+  color: white;
+  z-index: 2;
+  animation-name: m;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+    }
+
+@keyframes m {
+  0%{rotate:y 0deg;opacity: 0;}
+  100%{rotate:y 360deg;opacity: 1;} 
+}
+ 
+.felvo{
+    position:absolute;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolt;
+    width:100%;
+    height:14.5%;   
+    margin:0;
+    padding:0;
+    color:white;
+    font-size: 20vw;    
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index:1;
+     animation-name: felvo;
+     animation-duration: 2s;
+}
+    
+@keyframes felvo {
+    0%{left:0%;opacity: 0;}
+    100%{left:0%;opacity: 1;}
+}
+
+
+
+.menuIcon{
+    position:fixed;
+    background-image: url('/storage/emulated/0/MAREK/Icon/hamIcon3.png');
+    background-position: center;
+    background-size: 100% 100%;
+    width:9%;
+    height:4%;
+    left:87%;
+    top:4.3%;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    z-index:3;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-delay: 4.5;
+    }
+    
+@keyframes icon {
+  0%{width:0%;height: 0%;}  
+  50%{width:12%;height:6%;}
+  100%{width:9%;height: 4%;}
+}
+
+.menu{
+    position:fixed;
+    height:29%;
+    width:100%;
+    top:12%;
+    background-color:black;
+    animation-name: menu;
+    animation-duration: 0.5s;
+    z-index:2;
+    }
+
+@keyframes menu{
+    0%{top:12%;left:70%;width:0;height:0%;opacity:0;}
+   100%{top:12%;left:0%;width:100%;height:29%;opacity:1;}
+}
+
+.menu .haa{
+    box-sizing: border-box;
+    color:#d3d3d3;
+    margin:0;
+    padding:0;
+    }    
+
+.haa{
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 7vw;
+    color:white;
+    z-index:0;
+    }
+
+details > .menuIcon{
+    list-style-type:none;
+   }
+
+
+
+.gold{ 
+    position: absolute;
+    top:15%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1),rgba(0,0,0,0)) ;
+    
+}    
+
+.text1{
+    position: absolute;
+    top:21%;
+    left:10%;
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+   
+}    
+
+.wrapper{
+    position: absolute;
+    top:57%;
+    left:15%;
+    width:70%;
+    height:50%;
+    display: grid;
+    grid-gap: 10px;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+.glass{ 
+    position: absolute;
+    top:110%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1),rgba(0,0,0,0)) ;
+    
+}    
+
+.text2{
+    position: absolute;
+    top:117%;
+    left:10%;
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+   
+}    
+
+.wrapper2{
+    position: absolute;
+    top:138%;
+    left:15%;
+    width:70%;
+    height:50%;
+    display: grid;
+    grid-gap: 10px;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.lettering{ 
+    position: absolute;
+    top:190%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1),rgba(0,0,0,0)) ;
+    
+}    
+
+.text3{
+    position: absolute;
+    top:198%;
+    left:10%;
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+   
+}    
+
+.wrapper3{
+    position: absolute;
+    display: grid;
+    top:239%;
+    left:15%;
+    width:70%;
+    height:50%;
+    grid-gap: 10px;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.cali{ 
+    position: absolute;
+    top:290%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1),rgba(0,0,0,0)) ;
+    
+}    
+
+.text4{
+    position: absolute;
+    top:297%;
+    left:10%;
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+   
+}    
+
+.wrapper4{
+    position: absolute;
+    display: grid;
+    top:324%;
+    left:15%;
+    width:70%;
+    height:50%;
+    grid-gap: 10px;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+   
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+    
+    
+.flex-social{
+    display:flex;
+    position:relative;
+    justify-content: space-around;
+    background-image:linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    width:100%;
+    height:3%;
+    margin:0;
+    padding:10px;
+    top:100%;
+    
+   
+   
+    }
+
+
+
+.inst{
+    position:relative;
+    top:30%;
+    width:5%;
+    height:25%;
+    margin-left:5px;
+    background-image:url("/storage/emulated/0/MAREK/Icon/insta.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+.mail{
+    position:relative;
+    top:30%;
+    width:5%;
+    height:25%;
+    margin-left:10px;
+    margin-right:10px;
+    background-image:url("/storage/emulated/0/MAREK/Icon/mail.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+
+.call{
+    position:relative;
+    top:30%;
+    width:5%;
+    height:25%;
+    margin-left:10px;
+    margin-right:10px;
+    background-image:url("/storage/emulated/0/MAREK/Icon/call.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+.whats{
+    position:relative;
+    top:30%;
+    width:5%;
+    height:25%;
+    margin-left:10px;
+    margin-right:10px;
+    background-image:url("/storage/emulated/0/MAREK/Icon/whats.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+.kucko{
+
+     position:relative;
+     top:99%;
+     left:28%;
+     color:white;
+     margin:0;
+     padding:0;
+     font-size:3vw;
+     text-align:center;
+     letter-spacing:4px;
+     text-decoration: none;
+     }  
+
+
+
